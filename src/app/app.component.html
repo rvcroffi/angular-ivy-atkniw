@@ -1,0 +1,8 @@
+<hello name="{{ name }}"></hello>
+<p>
+  Start editing to see some magic happen :)
+</p>
+<button (click)="toggleDivVis()">Toggle</button>
+<div *ngIf="isDivVisible">
+  <p [class.invalid]="condition">Test</p>
+</div>
